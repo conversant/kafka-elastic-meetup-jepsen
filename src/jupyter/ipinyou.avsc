@@ -1,0 +1,31 @@
+{
+	"type":"record",
+	"name":"IPinYou",
+	"namespace":"com.conversantmedia.cake.avro",
+	"fields":[
+		{"name":"bid_id","type":["string","null"]},
+		{"name":"timestamp","type":["double","null"]},
+		{"name":"log_type","type":["int","null"]},
+		{"name":"ipinyou_id","type":["string","null"]},
+		{"name":"user_agent","type":["string","null"]},
+		{"name":"ip_address","type":["string","null"]},
+		{"name":"region","type":["int","null"]},
+		{"name":"city","type":["int","null"]},
+		{"name":"ad_exchange","type":["int","null"]},
+		{"name":"domain","type":["string","null"]},
+		{"name":"url","type":["string","null"]},
+		{"name":"anonymous_url_id","type":["string","null"]},
+		{"name":"ad_slot_id","type":["string","null"]},
+		{"name":"ad_slot_width","type":["int","null"]},
+		{"name":"ad_slot_height","type":["int","null"]},
+		{"name":"ad_slot_visibility","type":["string","null"]},
+		{"name":"ad_slot_format","type":["string","null"]},
+		{"name":"ad_slot_floor_price","type":["int","null"]},
+		{"name":"creative_id","type":["string","null"]},
+		{"name":"bidding_price","type":["int","null"]},
+		{"name":"paying_price","type":["int","null"]},
+		{"name":"landing_page_url","type":["string","null"]},
+		{"name":"advertiser_id","type":["int","null"]},
+		{"name":"user_tags","type":["string","null"]}
+	]
+}
